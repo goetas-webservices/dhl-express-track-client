@@ -1,0 +1,50 @@
+GoetasWebservices\Client\DHL\TrackingRequestType:
+    properties:
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: Request
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: GoetasWebservices\Client\DHL\RequestType
+        aWBNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AWBNumber
+            accessor:
+                getter: getAWBNumber
+                setter: setAWBNumber
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfAWBNumberItem
+                skip_when_empty: true
+        lPNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: LPNumber
+            accessor:
+                getter: getLPNumber
+                setter: setLPNumber
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfTrackingPieceIDItem
+                skip_when_empty: true
+        levelOfDetails:
+            expose: true
+            access_type: public_method
+            serialized_name: LevelOfDetails
+            accessor:
+                getter: getLevelOfDetails
+                setter: setLevelOfDetails
+            type: string
+        piecesEnabled:
+            expose: true
+            access_type: public_method
+            serialized_name: PiecesEnabled
+            accessor:
+                getter: getPiecesEnabled
+                setter: setPiecesEnabled
+            type: string

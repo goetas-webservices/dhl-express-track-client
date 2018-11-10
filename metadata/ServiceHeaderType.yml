@@ -1,0 +1,18 @@
+GoetasWebservices\Client\DHL\ServiceHeaderType:
+    properties:
+        messageTime:
+            expose: true
+            access_type: public_method
+            serialized_name: MessageTime
+            accessor:
+                getter: getMessageTime
+                setter: setMessageTime
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        messageReference:
+            expose: true
+            access_type: public_method
+            serialized_name: MessageReference
+            accessor:
+                getter: getMessageReference
+                setter: setMessageReference
+            type: string

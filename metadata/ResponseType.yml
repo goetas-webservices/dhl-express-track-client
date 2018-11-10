@@ -1,0 +1,10 @@
+GoetasWebservices\Client\DHL\ResponseType:
+    properties:
+        serviceHeader:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceHeader
+            accessor:
+                getter: getServiceHeader
+                setter: setServiceHeader
+            type: GoetasWebservices\Client\DHL\ServiceHeaderType

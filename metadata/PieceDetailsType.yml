@@ -1,0 +1,122 @@
+GoetasWebservices\Client\DHL\PieceDetailsType:
+    properties:
+        aWBNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AWBNumber
+            accessor:
+                getter: getAWBNumber
+                setter: setAWBNumber
+            type: string
+        licensePlate:
+            expose: true
+            access_type: public_method
+            serialized_name: LicensePlate
+            accessor:
+                getter: getLicensePlate
+                setter: setLicensePlate
+            type: string
+        pieceNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PieceNumber
+            accessor:
+                getter: getPieceNumber
+                setter: setPieceNumber
+            type: string
+        actualDepth:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualDepth
+            accessor:
+                getter: getActualDepth
+                setter: setActualDepth
+            type: string
+        actualWidth:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualWidth
+            accessor:
+                getter: getActualWidth
+                setter: setActualWidth
+            type: string
+        actualHeight:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualHeight
+            accessor:
+                getter: getActualHeight
+                setter: setActualHeight
+            type: string
+        actualWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: ActualWeight
+            accessor:
+                getter: getActualWeight
+                setter: setActualWeight
+            type: string
+        depth:
+            expose: true
+            access_type: public_method
+            serialized_name: Depth
+            accessor:
+                getter: getDepth
+                setter: setDepth
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: Width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: Height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            type: string
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: string
+        packageType:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageType
+            accessor:
+                getter: getPackageType
+                setter: setPackageType
+            type: string
+        dimWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: DimWeight
+            accessor:
+                getter: getDimWeight
+                setter: setDimWeight
+            type: string
+        weightUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: WeightUnit
+            accessor:
+                getter: getWeightUnit
+                setter: setWeightUnit
+            type: string
+        pieceContents:
+            expose: true
+            access_type: public_method
+            serialized_name: PieceContents
+            accessor:
+                getter: getPieceContents
+                setter: setPieceContents
+            type: string

@@ -1,0 +1,14 @@
+GoetasWebservices\Client\DHL\FaultType:
+    properties:
+        pieceFault:
+            expose: true
+            access_type: public_method
+            serialized_name: PieceFault
+            accessor:
+                getter: getPieceFault
+                setter: setPieceFault
+            type: array<GoetasWebservices\Client\DHL\PieceFaultType>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfPieceFaultItem
+                skip_when_empty: false

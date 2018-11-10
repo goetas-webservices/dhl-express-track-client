@@ -1,0 +1,18 @@
+GoetasWebservices\Client\DHL\ServiceEventType:
+    properties:
+        eventCode:
+            expose: true
+            access_type: public_method
+            serialized_name: EventCode
+            accessor:
+                getter: getEventCode
+                setter: setEventCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string

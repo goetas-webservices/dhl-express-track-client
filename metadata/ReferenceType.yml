@@ -1,0 +1,18 @@
+GoetasWebservices\Client\DHL\ReferenceType:
+    properties:
+        referenceID:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceID
+            accessor:
+                getter: getReferenceID
+                setter: setReferenceID
+            type: string
+        referenceType:
+            expose: true
+            access_type: public_method
+            serialized_name: ReferenceType
+            accessor:
+                getter: getReferenceType
+                setter: setReferenceType
+            type: string

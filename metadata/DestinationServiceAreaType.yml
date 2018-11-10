@@ -1,0 +1,34 @@
+GoetasWebservices\Client\DHL\DestinationServiceAreaType:
+    properties:
+        serviceAreaCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceAreaCode
+            accessor:
+                getter: getServiceAreaCode
+                setter: setServiceAreaCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        facilityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: FacilityCode
+            accessor:
+                getter: getFacilityCode
+                setter: setFacilityCode
+            type: string
+        inboundSortCode:
+            expose: true
+            access_type: public_method
+            serialized_name: InboundSortCode
+            accessor:
+                getter: getInboundSortCode
+                setter: setInboundSortCode
+            type: string

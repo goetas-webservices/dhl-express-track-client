@@ -1,0 +1,14 @@
+GoetasWebservices\Client\DHL\TrackingPiecesType:
+    properties:
+        pieceInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: PieceInfo
+            accessor:
+                getter: getPieceInfo
+                setter: setPieceInfo
+            type: array<GoetasWebservices\Client\DHL\PieceInfoType>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfPieceInfoItem
+                skip_when_empty: false

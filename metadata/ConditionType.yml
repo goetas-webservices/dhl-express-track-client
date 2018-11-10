@@ -1,0 +1,18 @@
+GoetasWebservices\Client\DHL\ConditionType:
+    properties:
+        conditionCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ConditionCode
+            accessor:
+                getter: getConditionCode
+                setter: setConditionCode
+            type: string
+        conditionData:
+            expose: true
+            access_type: public_method
+            serialized_name: ConditionData
+            accessor:
+                getter: getConditionData
+                setter: setConditionData
+            type: string

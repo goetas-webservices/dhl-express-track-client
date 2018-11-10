@@ -1,0 +1,10 @@
+GoetasWebservices\Client\DHL\ExpressTrack\PubTrackingResponseType:
+    properties:
+        trackingResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: TrackingResponse
+            accessor:
+                getter: getTrackingResponse
+                setter: setTrackingResponse
+            type: GoetasWebservices\Client\DHL\TrackingResponse

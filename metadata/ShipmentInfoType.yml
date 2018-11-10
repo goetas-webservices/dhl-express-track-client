@@ -1,0 +1,94 @@
+GoetasWebservices\Client\DHL\ShipmentInfoType:
+    properties:
+        originServiceArea:
+            expose: true
+            access_type: public_method
+            serialized_name: OriginServiceArea
+            accessor:
+                getter: getOriginServiceArea
+                setter: setOriginServiceArea
+            type: GoetasWebservices\Client\DHL\OriginServiceAreaType
+        destinationServiceArea:
+            expose: true
+            access_type: public_method
+            serialized_name: DestinationServiceArea
+            accessor:
+                getter: getDestinationServiceArea
+                setter: setDestinationServiceArea
+            type: GoetasWebservices\Client\DHL\DestinationServiceAreaType
+        shipperName:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipperName
+            accessor:
+                getter: getShipperName
+                setter: setShipperName
+            type: string
+        shipperAccountNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipperAccountNumber
+            accessor:
+                getter: getShipperAccountNumber
+                setter: setShipperAccountNumber
+            type: int
+        consigneeName:
+            expose: true
+            access_type: public_method
+            serialized_name: ConsigneeName
+            accessor:
+                getter: getConsigneeName
+                setter: setConsigneeName
+            type: string
+        shipmentDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentDate
+            accessor:
+                getter: getShipmentDate
+                setter: setShipmentDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        pieces:
+            expose: true
+            access_type: public_method
+            serialized_name: Pieces
+            accessor:
+                getter: getPieces
+                setter: setPieces
+            type: string
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: string
+        weightUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: WeightUnit
+            accessor:
+                getter: getWeightUnit
+                setter: setWeightUnit
+            type: string
+        shipmentEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentEvent
+            accessor:
+                getter: getShipmentEvent
+                setter: setShipmentEvent
+            type: array<GoetasWebservices\Client\DHL\ShipmentEventType>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfShipmentEventItem
+                skip_when_empty: true
+        shipperReference:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipperReference
+            accessor:
+                getter: getShipperReference
+                setter: setShipperReference
+            type: GoetasWebservices\Client\DHL\ReferenceType

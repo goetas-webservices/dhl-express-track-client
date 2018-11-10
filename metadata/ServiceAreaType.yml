@@ -1,0 +1,18 @@
+GoetasWebservices\Client\DHL\ServiceAreaType:
+    properties:
+        serviceAreaCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceAreaCode
+            accessor:
+                getter: getServiceAreaCode
+                setter: setServiceAreaCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string

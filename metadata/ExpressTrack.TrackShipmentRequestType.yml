@@ -1,0 +1,10 @@
+GoetasWebservices\Client\DHL\ExpressTrack\TrackShipmentRequestType:
+    properties:
+        trackingRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: trackingRequest
+            accessor:
+                getter: getTrackingRequest
+                setter: setTrackingRequest
+            type: GoetasWebservices\Client\DHL\ExpressTrack\PubTrackingRequestType

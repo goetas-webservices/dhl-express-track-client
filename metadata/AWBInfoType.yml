@@ -1,0 +1,34 @@
+GoetasWebservices\Client\DHL\AWBInfoType:
+    properties:
+        aWBNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: AWBNumber
+            accessor:
+                getter: getAWBNumber
+                setter: setAWBNumber
+            type: string
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: GoetasWebservices\Client\DHL\StatusType
+        shipmentInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentInfo
+            accessor:
+                getter: getShipmentInfo
+                setter: setShipmentInfo
+            type: GoetasWebservices\Client\DHL\ShipmentInfoType
+        pieces:
+            expose: true
+            access_type: public_method
+            serialized_name: Pieces
+            accessor:
+                getter: getPieces
+                setter: setPieces
+            type: GoetasWebservices\Client\DHL\TrackingPiecesType

@@ -1,0 +1,3 @@
+GoetasWebservices\Client\DHL\ExpressTrack\TrackShipmentRequest:
+    xml_root_name: 'ns-afaaa0ad:trackShipmentRequest'
+    xml_root_namespace: 'http://scxgxtt.phx-dc.dhl.com/glDHLExpressTrack/providers/services/trackShipment'

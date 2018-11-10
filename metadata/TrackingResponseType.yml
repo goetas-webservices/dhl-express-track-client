@@ -1,0 +1,30 @@
+GoetasWebservices\Client\DHL\TrackingResponseType:
+    properties:
+        response:
+            expose: true
+            access_type: public_method
+            serialized_name: Response
+            accessor:
+                getter: getResponse
+                setter: setResponse
+            type: GoetasWebservices\Client\DHL\ResponseType
+        aWBInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: AWBInfo
+            accessor:
+                getter: getAWBInfo
+                setter: setAWBInfo
+            type: array<GoetasWebservices\Client\DHL\AWBInfoType>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfAWBInfoItem
+                skip_when_empty: false
+        fault:
+            expose: true
+            access_type: public_method
+            serialized_name: Fault
+            accessor:
+                getter: getFault
+                setter: setFault
+            type: GoetasWebservices\Client\DHL\FaultType

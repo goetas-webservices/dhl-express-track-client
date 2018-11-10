@@ -1,0 +1,3 @@
+GoetasWebservices\Client\DHL\TrackingRequest:
+    xml_root_name: 'ns-476a4b96:TrackingRequest'
+    xml_root_namespace: 'http://www.dhl.com'

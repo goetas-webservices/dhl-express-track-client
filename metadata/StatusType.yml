@@ -1,0 +1,22 @@
+GoetasWebservices\Client\DHL\StatusType:
+    properties:
+        actionStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: ActionStatus
+            accessor:
+                getter: getActionStatus
+                setter: setActionStatus
+            type: string
+        condition:
+            expose: true
+            access_type: public_method
+            serialized_name: Condition
+            accessor:
+                getter: getCondition
+                setter: setCondition
+            type: array<GoetasWebservices\Client\DHL\ConditionType>
+            xml_list:
+                inline: false
+                entry_name: ArrayOfConditionItem
+                skip_when_empty: true

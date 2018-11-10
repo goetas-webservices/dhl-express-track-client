@@ -1,0 +1,13 @@
+GoetasWebservices\Client\DHL\ExpressTrack\SoapParts\TrackShipmentRequestOutput:
+    xml_root_namespace: 'http://scxgxtt.phx-dc.dhl.com/glDHLExpressTrack/providers/services/trackShipment'
+    properties:
+        parameters:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getParameters
+                setter: setParameters
+            xml_element:
+                namespace: 'http://scxgxtt.phx-dc.dhl.com/glDHLExpressTrack/providers/services/trackShipment'
+            serialized_name: trackShipmentRequestResponse
+            type: GoetasWebservices\Client\DHL\ExpressTrack\TrackShipmentRequestResponse

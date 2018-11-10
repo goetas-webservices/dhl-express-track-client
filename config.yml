@@ -1,0 +1,10 @@
+soap_client:
+    namespaces:
+        'http://scxgxtt.phx-dc.dhl.com/glDHLExpressTrack/providers/services/trackShipment': GoetasWebservices\Client\DHL\ExpressTrack
+        'http://www.dhl.com': GoetasWebservices\Client\DHL
+    destinations_php:
+        GoetasWebservices\Client\DHL: src
+    destinations_jms:
+        GoetasWebservices\Client\DHL: metadata
+    metadata:
+        'https://wsb.dhl.com/gbl/glDHLExpressTrack?WSDL': null
