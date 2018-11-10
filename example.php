@@ -3,7 +3,7 @@
 use GoetasWebservices\SoapServices\SoapClient\ClientFactory;
 use GoetasWebservices\SoapServices\SoapClient\Builder\SoapContainerBuilder;
 use GoetasWebservices\Client\DHLExpressTrack\SoapContainer;
-use GoetasWebservices\Client\DHLExpressTrack\SoapStubs\CheckVatPortType;
+use GoetasWebservices\Client\DHLExpressTrack\SoapStubs\GblDHLExpressTrack;
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -14,7 +14,7 @@ $metadata = $container->get('goetas_webservices.soap_client.metadata_reader');
 $factory = new ClientFactory($metadata, $serializer);
 
 /**
- * @var $client CheckVatPortType
+ * @var $client GblDHLExpressTrack
  */
 $client = $factory->getClient('https://wsb.dhl.com/gbl/glDHLExpressTrack?WSDL','gblDHLExpressTrack', 'gblDHLExpressTrack');
 
